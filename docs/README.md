@@ -6,15 +6,20 @@ This plugin adds 4 asynchronous blueprint nodes into UE5. These nodes can be use
 
 ### Fade
 ![fadeasync](./images/FadeAsync.png "Fade Async Node")
+
 The simplest fade node available. Will cover most cases by fading to black over the specified duration.
 
 ![fadecolorasync](./images/FadeColorAsync.png "Fade Color Async Node")
+
 A simple fade node that allows customizing the fade color and duration, while remaing lightweight and straightforward.
 
 ![advancedfade](./images/AdvancedFade.png "Advanced Fade")
+
 An advanced fade node that is highly customizable. Useful in more niche situations when the simple fade nodes don't suffice. For example when Time Dilation or local splitscreen is involved.
 
 Image legend:
+
+|---| ----------------------------------------|
 | 1 | Input a user specified color to fade to |
 | 2 | Option to select which player controllers should fade, this allows fine control in split-screen multiplayer |
 | 3 | Options available to fade the first, the specified, or all player controllers |
@@ -27,6 +32,7 @@ Image legend:
 A simple Dip node that fades the screen to black, lets the user perform an action, and fades back to the game view. The fade durations as well as the dip duration (the time the screen stays fully black) can be customized.
 
 ![dipcolorasync](./images/DipColorAsync.png "Dip Color Async Node")
+
 A simple Dip node that acts the same as the Dip node, except it allows customization of the color.
 
 ### Feature comparison
