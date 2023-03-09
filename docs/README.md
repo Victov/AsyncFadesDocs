@@ -18,7 +18,7 @@ A simple fade node that allows customizing the fade color and duration, while re
 An advanced fade node that is highly customizable. Useful in more niche situations when the simple fade nodes don't suffice. For example when Time Dilation or local splitscreen is involved.
 
 Image legend:
-
+| # | Explanation |
 |---| ----------------------------------------|
 | 1 | Input a user specified color to fade to |
 | 2 | Option to select which player controllers should fade, this allows fine control in split-screen multiplayer |
