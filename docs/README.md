@@ -35,6 +35,10 @@ A simple Dip node that fades the screen to black, lets the user perform an actio
 
 A simple Dip node that acts the same as the Dip node, except it allows customization of the color.
 
+![advanceddip](./images/AdvancedDip.png "Advanced Dip Node")
+
+An advanced dip that has many of the same advanced features of the Advanced Fade Node. 
+
 ### Feature comparison
 | **Node/Features**       | **Behaviour**                                               | **Color**      | **Tick while paused** | **Split-screen supported** | **Affected by Time Dilation** | **Tick in Editor** | **Fade Curve**            |
 |-------------------------|-------------------------------------------------------------|----------------|-----------------------|----------------------------|-------------------------------|--------------------|---------------------------|
