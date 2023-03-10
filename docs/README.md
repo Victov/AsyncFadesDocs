@@ -63,6 +63,7 @@ This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be use
 | **Advanced Fade Async** | Fade between Game and Color, very customizable.             | User specified | Optional              | Yes                        | Optional                      | Optional           | Linear (user overridable) |
 | **Dip Async**           | Fade from Game to Black, perform action, fade back to Game. | Black          | No                    | No                         | Yes                           | No                 | Linear                    |
 | **Dip Color Async**     | Fade from Game to Color, perform action, fade back to Game. | User specified | No                    | No                         | Yes                           | No                 | Linear                    |
+| **Advanced Dip**        | Dip Async, with advanced options.                           | User Specified | Optional              | Yes                        | Optional                      | Optional           | Linear                    |
 
 ### Usage notes
 
