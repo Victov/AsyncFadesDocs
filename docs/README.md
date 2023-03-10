@@ -6,19 +6,23 @@ This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be use
 
 ### Fade
 
+> **Fade Async**
 > ![fadeasync](./images/FadeAsync.png "Fade Async Node")
 >
 > The simplest fade node available. Will cover most cases by fading to black over the specified duration.
 
+> **Fade Color Async**
 > ![fadecolorasync](./images/FadeColorAsync.png "Fade Color Async Node")
 > 
 > A simple fade node that allows customizing the fade color and duration, while remaing lightweight and straightforward.
 
+> **Advanced Fade**
 > ![advancedfade](./images/AdvancedFade.png "Advanced Fade")
 > 
 > An advanced fade node that is highly customizable. Useful in more niche situations when the simple fade nodes don't suffice. For example when Time Dilation or local splitscreen is involved.
 > 
 > **Image legend:**
+>
 > | # | Explanation                                                                                                                                                                                                                                         |
 > |---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1 | Input a user specified color to fade to                                                                                                                                                                                                             |
@@ -29,17 +33,17 @@ This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be use
 
 ### Dip
 
-![dipasync](./images/DipAsync.png "Dip Async Node")
+> **Dip Async**
+> ![dipasync](./images/DipAsync.png "Dip Async Node")
+> A simple Dip node that fades the screen to black, lets the user perform an action, and fades back to the game view. The fade durations as well as the dip duration (the time the screen stays fully black) can be customized.
 
-A simple Dip node that fades the screen to black, lets the user perform an action, and fades back to the game view. The fade durations as well as the dip duration (the time the screen stays fully black) can be customized.
+> **Dip Color Async**
+> ![dipcolorasync](./images/DipColorAsync.png "Dip Color Async Node")
+> A simple Dip node that acts the same as the Dip node, except it allows customization of the color.
 
-![dipcolorasync](./images/DipColorAsync.png "Dip Color Async Node")
-
-A simple Dip node that acts the same as the Dip node, except it allows customization of the color.
-
-![advanceddip](./images/AdvancedDip.png "Advanced Dip Node")
-
-An advanced dip that has many of the same advanced features of the Advanced Fade Node. 
+> **Advanced Dip**
+> ![advanceddip](./images/AdvancedDip.png "Advanced Dip Node")
+> An advanced dip that has many of the same advanced features of the Advanced Fade Node. 
 
 ### Feature comparison
 
