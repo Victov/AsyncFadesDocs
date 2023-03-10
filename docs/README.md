@@ -8,19 +8,19 @@ This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be use
 
 > **Fade Async**
 >
-> ![fadeasync](./images/FadeAsync.png "Fade Async Node")
+> <a href="./images/FadeAsync.png"><img src="./images/FadeAsync.png" alt="Fade Async Node" width="50%" /></a>
 >
 > The simplest fade node available. Will cover most cases by fading to black over the specified duration.
 
 > **Fade Color Async**
 >
-> ![fadecolorasync](./images/FadeColorAsync.png "Fade Color Async Node")
+> <a href="./images/FadeColorAsync.png"><img src="./images/FadeColorAsync.png" alt="Fade Color Async Node" width="50%" /></a>
 > 
 > A simple fade node that allows customizing the fade color and duration, while remaing lightweight and straightforward.
 
 > **Advanced Fade**
 >
-> ![advancedfade](./images/AdvancedFade.png "Advanced Fade")
+> <a href="./images/AdvancedFade.png"><img src="./images/AdvancedFade.png" alt="Advanced Fade" width="50%" /></a>
 > 
 > An advanced fade node that is highly customizable. Useful in more niche situations when the simple fade nodes don't suffice. For example when Time Dilation or local splitscreen is involved.
 > 
@@ -38,19 +38,19 @@ This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be use
 
 > **Dip Async**
 >
-> ![dipasync](./images/DipAsync.png "Dip Async Node")
+> <a href="./images/DipAsync.png"><img src="./images/DipAsync.png" alt="Dip Async Node" width="50%" /></a>
 >
 > A simple Dip node that fades the screen to black, lets the user perform an action, and fades back to the game view. The fade durations as well as the dip duration (the time the screen stays fully black) can be customized.
 
 > **Dip Color Async**
 >
-> ![dipcolorasync](./images/DipColorAsync.png "Dip Color Async Node")
+> <a href="./images/DipColorAsync.png"><img src="./images/DipColorAsync.png" alt="Dip Color Async Node" width="50%" /></a>
 >
 > A simple Dip node that acts the same as the Dip node, except it allows customization of the color.
 
 > **Advanced Dip**
 >
-> ![advanceddip](./images/AdvancedDip.png "Advanced Dip Node")
+> <a href="./images/AdvancedDip.png"><img src="./images/AdvancedDip.png" alt="Advanced Dip Node" width="50%" /></a>
 >
 > An advanced dip that has many of the same advanced features of the Advanced Fade Node. 
 
