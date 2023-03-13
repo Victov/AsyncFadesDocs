@@ -1,6 +1,6 @@
 # Fade Utilities Plugin Documentation
 
-This page contains user documentation for the (Fade Utilities Plugin)(TODO:Link).
+This page contains user documentation for the [Fade Utilities Plugin](https://www.unrealengine.com/marketplace/en-US/product/51123fa20a2940b0b3d13e677b32cceb).
 
 This plugin adds 6 asynchronous blueprint nodes into UE5. These nodes can be used to easily fade the screen, without having to keep track of fading logic yourself. The nodes have several output pins that fire at the end of a fading operation, or during a dip (also known as fade out, do something, fade in). The simplest nodes make some assumptions about the game, in order to cover most cases with the littlest configuration. For more advanced cases, like local splitscreen multiplayer or games involving Time Dilation, check the Advanced Nodes.
 
